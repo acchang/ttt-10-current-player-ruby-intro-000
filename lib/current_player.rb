@@ -4,3 +4,4 @@ players = ["X", "O"]
 players.each do |turn| 
   counter += 1
 end
+end
