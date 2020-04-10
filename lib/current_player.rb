@@ -1,6 +1,6 @@
 def turn_count(turn)
 counter = 0
 players = ["X", "O"]
-players.each do |Player| # do begins a block
+players.each do |turn| 
   counter += 1
 end
