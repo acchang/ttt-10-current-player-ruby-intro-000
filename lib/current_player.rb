@@ -1,7 +1,7 @@
 def turn_count(turn)
-counter = 0
+counter = 1
 turn = ["X", "O"]
-players.each do |turn|
+turn.each do |turn|
   counter += 1
 end
 end
