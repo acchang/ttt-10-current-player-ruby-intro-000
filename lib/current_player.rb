@@ -1,6 +1,5 @@
-def turn_count(turn)
-  counter = 0
-  turn.each do |unit|
-    if unit == "X" || unit == "O"
-counter += 1
+counter = 0
+players = ["X", "O"]
+players.each do |Player| # do begins a block
+  counter += 1
 end
