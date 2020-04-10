@@ -1,10 +1,3 @@
-def turn_count(turn)
-counter = 1
-turn.each do |player|
-  if player == "X" || player == "O"
-  counter += 1
-end
-end
 
 def current_player(board)
   #if turn_count(board) %  == 0
@@ -15,4 +8,4 @@ def current_player(board)
       return "O"
     #puts "divisible by 2"
     end
-end 
+end
