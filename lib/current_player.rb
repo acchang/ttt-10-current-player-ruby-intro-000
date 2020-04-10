@@ -1,6 +1,6 @@
-def turn_count(board1)
+def turn_count(board)
 counter = 1
-turn.each do |turn|
+turn.each do |board|
   counter += 1
 end
 end
