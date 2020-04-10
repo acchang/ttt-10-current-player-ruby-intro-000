@@ -3,7 +3,5 @@ def turn_count(turn)
   turn.each do |unit|
       if unit == "X" || unit == "O"
       move_count.push(1)
-    end
-  end
-  turn_count.length.to_i
+    ends
 end
