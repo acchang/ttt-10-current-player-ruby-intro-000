@@ -3,7 +3,7 @@ def turn_count(turn)
   turn.each do |unit|
       if unit == "X" || unit == "O"
       counter += 1
-      return(counter)
     end
   end
+  return(counter)
 end
