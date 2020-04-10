@@ -5,5 +5,5 @@ def turn_count(turn)
       counter +=1
     end
   end
-  move_count.length.to_i
+  turn_count.length.to_i
 end
